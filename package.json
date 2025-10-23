@@ -1,0 +1,16 @@
+{
+  "name": "web-ui-automation",
+  "version": "1.0.0",
+  "description": "Belajar Selenium Web UI Automation dengan mocha with Mochawesome reporter",
+  "scripts": {
+    "test": "mocha test --recursive --timeout 60000 --reporter mochawesome"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.17.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3",
+    "mocha-simple-html-reporter": "^2.0.0"
+  }
+}
